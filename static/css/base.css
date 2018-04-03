@@ -1,0 +1,53 @@
+@charset "UTF8"
+/*
+2017年10月27
+author：wers
+ */
+
+/* 初始化样式表 */
+html,body{
+	margin: 0;padding: 0;
+}
+html,body,div,span,p,ul,ol,li,dl,dd,dt,h1,h2,h3,h4,h5,h6{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	font-size: 12px;
+}
+input,img,textarea{
+	margin: 0;
+	padding: 0;
+	outline-style: none;
+	border:0 none;
+}
+a{
+	text-decoration: none;
+	color:white;
+}
+a:hover,
+a:active,
+a:after,
+a:link{
+	color:#2ddefc;
+	text-decoration: none;
+}
+
+.clearfix:before,
+.clearfix:after{
+	height:0;
+	line-height: 0;
+	display: inline-block;
+	content:'.';
+	clear:both;
+	visiblity:hidden;
+}
+.clearfix{
+	zoom: 1;
+}
+
+/* 公共样式表 */
+.w{
+	width: 1000px;
+	margin:0 auto;
+}
